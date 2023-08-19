@@ -1,4 +1,4 @@
-URL: (React Portfolio)[https://dhaval-react-portfolio.netlify.app/]
+URL: [React Portfolio](https://dhaval-react-portfolio.netlify.app/)
 
 # React + Vite
 
