@@ -1,9 +1,9 @@
 import React from 'react';
-import './Home.css'
-const Home = () => {
+import './HomeSection.css'
+const HomeSection = () => {
   return (
     
-<section id="home" class="home">
+<section id="home" className="home">
         <img src="/profile-picture.jpeg" alt="Profile Picture" />
         {/* <p>An experienced software engineer with a strong desire to create effective and user-friendly software and online solutions.</p>  */}
         <h1>Hi, I'm <strong>Dhaval Shah</strong>.</h1>
@@ -15,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeSection;

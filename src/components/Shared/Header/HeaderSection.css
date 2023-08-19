@@ -13,7 +13,7 @@ header {
     color: var(--secondary-color);
 }
 
-nav ul {
+/* nav ul {
     display: flex;
     margin-bottom: 0;
 }
@@ -29,7 +29,7 @@ nav ul li:first-child {
 nav ul li a {
     font-size: 1.2rem;
     color: var(--secondary-color);
-}
+} */
 
 .image {
     background-color: var(--secondary-color);

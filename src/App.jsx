@@ -1,27 +1,22 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/Shared/Header/Header';
-import Home from './components/Home/Home';
-import Skills from './components/Skills/Skills';
-import Education from './components/Education/Education';
-import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Shared/Footer/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HeaderSection from './components/Shared/Header/HeaderSection';
+import HomePage from './pages/HomePage/HomePage';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <div>
-      <Header />
-      <Home />
-      <Skills />
-      <Education />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+      <div className="page">
+        <BrowserRouter>
+          <HeaderSection />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   )
 }

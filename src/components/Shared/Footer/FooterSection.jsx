@@ -1,7 +1,7 @@
 import React from 'react';
-import './Footer.css'
+import './FooterSection.css'
 
-const Footer = () => {
+const FooterSection = () => {
   return (
     <footer className="footer">
       <p>Copyright © 2023 | Dhaval Shah</p>
@@ -9,4 +9,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterSection;
