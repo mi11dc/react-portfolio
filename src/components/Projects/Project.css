@@ -1,0 +1,93 @@
+.projects {
+    color: var(--primary-color);
+    background-color: var(--default-color);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.project-item {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20em;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    background: var(--secondary-color);
+    position: relative;
+    cursor: pointer;
+    height: 15em;
+    transition: 1.5s;
+}
+
+.project-item .item {
+    width: 300px;
+    height: 200px;
+    transition: 1.5s;
+}
+
+.project-item .item.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(1em);
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-item .item.description {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-11.5em);
+}
+
+.project-item:hover {
+    transition: 1.5s;
+    height: 25em;
+}
+
+.project-item:hover .item.description {
+    transform: translateY(0);
+    transition: 1.5s;
+}
+
+.item.description .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.item.description .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--primary-color);
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+}
+
+.item.description .content a:hover{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.more-projects {
+    padding: 0.5em;
+    font-weight: 600;
+    margin: 15px 0 0;
+    display: inline-block;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}

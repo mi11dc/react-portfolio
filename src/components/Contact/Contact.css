@@ -1,0 +1,28 @@
+.contact {
+    background-color: var(--primary-color);
+    padding: 100px 0;
+    text-align: center;
+    color: var(--default-color);
+}
+
+.contact-form {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
+
+.contact-form-input  {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+}
+
+.contact-form-button {
+    font-weight: 700;
+    padding: 0.5em;
+    background-color: var(--default-color);
+    color: var(--primary-color);
+    border: var(--default-color) 1px solid;
+    width: 100%;
+}

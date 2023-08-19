@@ -1,0 +1,38 @@
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.35em;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 2em;
+    color: var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.image {
+    background-color: var(--secondary-color);
+    padding: 100px 0;
+    text-align: center;
+}

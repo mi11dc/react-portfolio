@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #00425A;
+  --secondary-color: #D3D3D3;
+  --default-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--primary-color);
+}
+
+ul {
+  list-style: none;
+}
