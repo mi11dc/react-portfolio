@@ -30,7 +30,7 @@ const EducationSection = () => {
         return format(new Date(date), 'MMM yyyy');
     }
 
-    function getEduIcons(collegeName) {
+    function getEduImg(collegeName) {
         switch (collegeName){
             case "Georgian College":
                 return eduImages.georgianImage;
@@ -51,7 +51,7 @@ const EducationSection = () => {
                     return new Date(a.start_date) - new Date(b.start_date);
                 }).map((edu) => (
                     <div className="education-item">
-                        <img className="education-img" src={getEduIcons(edu.institution)} alt={edu.institution} />
+                        <img className="education-img" src={getEduImg(edu.institution)} alt={edu.institution} />
                         <h3>{edu.major}</h3>
                         <p>{getFormatedDate(edu.start_date)} - {getFormatedDate(edu.end_date)}</p>
                         <p>{edu.degree}</p>
