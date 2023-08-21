@@ -105,54 +105,6 @@ const SkillSection = () => {
                         </div>
                     ))
                 }
-                {/* <div className="skill-item">
-                    <div className="skill-name">
-                        <i className="fa fa-3x fa-csharp" aria-hidden="true"></i>
-                        <p>C#</p>
-                    </div>
-                </div>
-                <div className="skill-item">
-                    <div className="skill-name">
-                        <i className="fa-brands fa-js"></i>
-                        <p>JavaScript</p>
-                    </div>
-                </div>
-                <div className="skill-item">
-                    <div className="skill-name">
-                        <i className="fa-brands fa-angular"></i>
-                        <p>Angular CLI</p>
-                    </div>
-                </div>
-                <div className="skill-item">
-                    <div className="skill-name">
-                        <i className="fa-brands fa-node"></i>
-                        <p>NodeJs</p>
-                    </div>
-                </div>
-                <div className="skill-item">
-                    <div className="skill-name">
-                        <i className="fa-brands fa-html5"></i>
-                        <p>HTML</p>
-                    </div>
-                </div>
-                <div className="skill-item">
-                    <div className="skill-name">
-                        <i className="fa-brands fa-css3-alt"></i>
-                        <p>CSS</p>
-                    </div>
-                </div>
-                <div className="skill-item">
-                    <div className="skill-name">
-                        <i className="fa fa-3x fa-python" aria-hidden="true"></i>
-                        <p>Python</p>
-                    </div>
-                </div>
-                <div className="skill-item">
-                    <div className="skill-name">
-                        <i className="fa fa-3x fa-mysql" aria-hidden="true"></i>
-                        <p>MySQL</p>
-                    </div>
-                </div> */}
             </div>
         </section>    
     );
